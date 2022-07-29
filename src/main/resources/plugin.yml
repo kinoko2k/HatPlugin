@@ -1,0 +1,12 @@
+name: HatPlugin
+version: '${project.version}'
+main: com.kinoko2k.hat.Hat
+api-version: 1.19
+authors: [ Kinoko_2K ]
+description: HatPlugin
+website: kinoko2k.github.io
+
+commands:
+  hat:
+    description: メインハンドに持っているアイテムを頭に装備します。(1個のアイテムではないと被れません)
+    usage: /<command>
